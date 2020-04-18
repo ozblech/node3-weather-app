@@ -7,7 +7,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50vh;
 
 }
 
@@ -54,5 +54,12 @@ button {
     color: white;
     padding: 8px;
     background: grey;
+}
+
+.center {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(600px, 1fr))
 }
 
