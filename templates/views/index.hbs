@@ -10,14 +10,14 @@
 
 
 <body>
-    <div class ="main-content" style="display: grid; grid-template-columns: 1fr;grid-template-rows: 1fr">
+    <div class ="main-content full-height" >
         {{>header}}
 
-        <p>Use this site to get weather forecast for today ! :)</p>
+        <h2>Use this site to get weather forecast for today ! :)</h2>
 
         <form>
-            <input placeholder="Location">
-            <button>Search</button>
+            <input id="textbox" placeholder="Location">
+            <button id="searchBtn">Search</button>
         </form>
 
         <p id="message-1"></p>

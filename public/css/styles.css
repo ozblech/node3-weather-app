@@ -1,4 +1,4 @@
-body {
+/*body {
     color: #333333;
     font-family: arial;
     max-width: 650px;
@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     min-height: 50vh;
 
-}
+}*/
 
 .main-content {
     flex-grow: 1;
@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 150px;
     margin-bottom: 16px;
 }
 
@@ -36,6 +36,7 @@ header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+    font-size: 50px;
 }
 
 .portrait {
@@ -56,10 +57,34 @@ button {
     background: grey;
 }
 
-.center {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(600px, 1fr))
+body {
+    margin: 0 auto;
+    padding: 0 16px;
+    color: #333333;
+    font-family: arial;
+    min-height:100%
+/*    display: flex;
+    flex-direction: column;*/
 }
 
+html {
+    height:100%;
+}
+
+.full-height {
+    height:100%;
+
+}
+
+#textbox {
+    height:50px;
+    width: 400px;
+    font-size: 24pt;
+}
+
+
+#searchBtn {
+    height:67px;
+    width: 150px;
+    font-size: 24pt;
+}
